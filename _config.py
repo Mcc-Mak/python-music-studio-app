@@ -4,7 +4,7 @@ no_of_tracks = 7
 no_of_channels = 5
 volume = 70
 duration = 1
-tempo = 130
+tempo = 120
 note_slip = 1/11
 lookup_track_name = {
     "Track_1": "Drums",
