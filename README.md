@@ -20,7 +20,7 @@
 ### Generate "MIDI" file
 1. Change the working directory to *<DIR_PROJECT>*
 2. Fine-tune the notes in *.\MusicSheet\<*
-3. Run `.\Scripts\python.exe app.py`
+3. Run `.\Scripts\python.exe app.py 高唱入雲` (format: `.\Scripts\python.exe app.py <SONG_NAME>`)
 ## Settings
 ### for Song Production
 - Configuration File
@@ -76,6 +76,7 @@
 ## Documentation
 #### Production
 1. 高唱入雲
+2. 願你國度降臨
 #### General MIDI Program
 |Category|Program|Instrument(s)|
 |---|---|---|

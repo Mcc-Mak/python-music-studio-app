@@ -6,8 +6,9 @@ from json import dumps
 from midiutil import MIDIFile
 MyMIDI = MIDIFile(no_of_tracks)
 
-__SongName__ = "高唱入雲"
-
+import sys
+# __SongName__ = "願你國度降臨"
+__SongName__ = sys.argv[1]
 
 # MyMIDI.addProgramChange(track, channel, time, program)
 for track in range(no_of_tracks):
