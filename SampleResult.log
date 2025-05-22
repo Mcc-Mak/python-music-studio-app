@@ -1,0 +1,91 @@
+(app_test) C:\Users\Guest\Desktop\app_test>.\Scripts\python.exe GenerateDemo.py 高唱入雲 "6_1@6_2@6_3@5_2@7_1"
+
+chromatic: ["C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B", "C"]
+
+chords: {"C": ["C", "E", "G"], "C#": ["C#", "E#", "G#"], "D": ["D", "F#", "A"], "D#": ["D#", "F##", "A#"], "E": ["E", "G#", "B"], "F": ["F", "A", "C"], "F#": ["F#", "A#", "C#"], "G": ["G", "B", "D"], "G#": ["G#", "B#", "D#"], "A": ["A", "C#", "E"], "A#": ["A#", "C##", "E#"], "B": ["B", "D#", "F#"], "Cm": ["C", "Eb", "G"], "C#m": ["C#", "E", "G#"], "Dm": ["D", "F", "A"], "D#m": ["D#", "F#", "A#"], "Em": ["E", "G", "B"], "Fm": ["F", "Ab", "C"], "F#m": ["F#", "A", "C#"], "Gm": ["G", "Bb", "D"], "G#m": ["G#", "B", "D#"], "Am": ["A", "C", "E"], "A#m": ["A#", "C#", "E#"], "Bm": ["B", "D", "F#"], "C7": ["C", "E", "G", "B"], "C#7": ["C#", "E#", "G#", "B#"], "D7": ["D", "F#", "A", "C#"], "D#7": ["D#", "F##", "A#", "C##"], "E7": ["E", "G#", "B", "D#"], "F7": ["F", "A", "C", "E"], "F#7": ["F#", "A#", "C#", "E#"], "G7": ["G", "B", "D", "F#"], "G#7": ["G#", "B#", "D#", "F##"], "A7": ["A", "C#", "E", "G#"], "A#7": ["A#", "C##", "E#", "G##"], "B7": ["B", "D#", "F#", "A#"], "Cm7": ["C", "Eb", "G", "Bb"], "C#m7": ["C#", "E", "G#", "B"], "Dm7": ["D", "F", "A", "C"], "D#m7": ["D#", "F#", "A#", "C#"], "Em7": ["E", "G", "B", "D"], "Fm7": ["F", "Ab", "C", "Eb"], "F#m7": ["F#", "A", "C#", "E"], "Gm7": ["G", "Bb", "D", "F"], "G#m7": ["G#", "B", "D#", "F#"], "Am7": ["A", "C", "E", "G"], "A#m7": ["A#", "C#", "E#", "G#"], "Bm7": ["B", "D", "F#", "A"]}
+
+[Info] Created folder: 'C:\Users\Guest\Desktop\app_test\MusicSheet\高唱入雲'
+
+[Info] Created 'MusicSheet/高唱入雲/1_1.csv'
+[Info] Created 'MusicSheet/高唱入雲/1_2.csv'
+[Info] Created 'MusicSheet/高唱入雲/1_3.csv'
+[Info] Created 'MusicSheet/高唱入雲/1_4.csv'
+[Info] Created 'MusicSheet/高唱入雲/1_5.csv'
+[Info] Created 'MusicSheet/高唱入雲/2_1.csv'
+[Info] Created 'MusicSheet/高唱入雲/2_2.csv'
+[Info] Created 'MusicSheet/高唱入雲/2_3.csv'
+[Info] Created 'MusicSheet/高唱入雲/2_4.csv'
+[Info] Created 'MusicSheet/高唱入雲/2_5.csv'
+[Info] Created 'MusicSheet/高唱入雲/3_1.csv'
+[Info] Created 'MusicSheet/高唱入雲/3_2.csv'
+[Info] Created 'MusicSheet/高唱入雲/3_3.csv'
+[Info] Created 'MusicSheet/高唱入雲/3_4.csv'
+[Info] Created 'MusicSheet/高唱入雲/3_5.csv'
+[Info] Created 'MusicSheet/高唱入雲/4_1.csv'
+[Info] Created 'MusicSheet/高唱入雲/4_2.csv'
+[Info] Created 'MusicSheet/高唱入雲/4_3.csv'
+[Info] Created 'MusicSheet/高唱入雲/4_4.csv'
+[Info] Created 'MusicSheet/高唱入雲/4_5.csv'
+[Info] Created 'MusicSheet/高唱入雲/5_1.csv'
+[Info] Created 'MusicSheet/高唱入雲/5_2.csv'
+[Info] Created 'MusicSheet/高唱入雲/5_3.csv'
+[Info] Created 'MusicSheet/高唱入雲/5_4.csv'
+[Info] Created 'MusicSheet/高唱入雲/5_5.csv'
+[Info] Created 'MusicSheet/高唱入雲/6_1.csv'
+[Info] Created 'MusicSheet/高唱入雲/6_2.csv'
+[Info] Created 'MusicSheet/高唱入雲/6_3.csv'
+[Info] Created 'MusicSheet/高唱入雲/6_4.csv'
+[Info] Created 'MusicSheet/高唱入雲/6_5.csv'
+[Info] Created 'MusicSheet/高唱入雲/7_1.csv'
+[Info] Created 'MusicSheet/高唱入雲/7_2.csv'
+[Info] Created 'MusicSheet/高唱入雲/7_3.csv'
+[Info] Created 'MusicSheet/高唱入雲/7_4.csv'
+[Info] Created 'MusicSheet/高唱入雲/7_5.csv'
+
+(app_test) C:\Users\Guest\Desktop\app_test>Scripts\python.exe app.py
+
+chromatic: ["C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B", "C"]
+
+chords: {"C": ["C", "E", "G"], "C#": ["C#", "E#", "G#"], "D": ["D", "F#", "A"], "D#": ["D#", "F##", "A#"], "E": ["E", "G#", "B"], "F": ["F", "A", "C"], "F#": ["F#", "A#", "C#"], "G": ["G", "B", "D"], "G#": ["G#", "B#", "D#"], "A": ["A", "C#", "E"], "A#": ["A#", "C##", "E#"], "B": ["B", "D#", "F#"], "Cm": ["C", "Eb", "G"], "C#m": ["C#", "E", "G#"], "Dm": ["D", "F", "A"], "D#m": ["D#", "F#", "A#"], "Em": ["E", "G", "B"], "Fm": ["F", "Ab", "C"], "F#m": ["F#", "A", "C#"], "Gm": ["G", "Bb", "D"], "G#m": ["G#", "B", "D#"], "Am": ["A", "C", "E"], "A#m": ["A#", "C#", "E#"], "Bm": ["B", "D", "F#"], "C7": ["C", "E", "G", "B"], "C#7": ["C#", "E#", "G#", "B#"], "D7": ["D", "F#", "A", "C#"], "D#7": ["D#", "F##", "A#", "C##"], "E7": ["E", "G#", "B", "D#"], "F7": ["F", "A", "C", "E"], "F#7": ["F#", "A#", "C#", "E#"], "G7": ["G", "B", "D", "F#"], "G#7": ["G#", "B#", "D#", "F##"], "A7": ["A", "C#", "E", "G#"], "A#7": ["A#", "C##", "E#", "G##"], "B7": ["B", "D#", "F#", "A#"], "Cm7": ["C", "Eb", "G", "Bb"], "C#m7": ["C#", "E", "G#", "B"], "Dm7": ["D", "F", "A", "C"], "D#m7": ["D#", "F#", "A#", "C#"], "Em7": ["E", "G", "B", "D"], "Fm7": ["F", "Ab", "C", "Eb"], "F#m7": ["F#", "A", "C#", "E"], "Gm7": ["G", "Bb", "D", "F"], "G#m7": ["G#", "B", "D#", "F#"], "Am7": ["A", "C", "E", "G"], "A#m7": ["A#", "C#", "E#", "G#"], "Bm7": ["B", "D", "F#", "A"]}
+
+[INFO] Disabled: Track-1, Channel-1
+[INFO] Disabled: Track-1, Channel-2
+[INFO] Disabled: Track-1, Channel-3
+[INFO] Disabled: Track-1, Channel-4
+[INFO] Disabled: Track-1, Channel-5
+
+[INFO] Enabled: Track-2, Channel-1; Program: 1; Beat (Total): 368.0
+[INFO] Disabled: Track-2, Channel-2
+[INFO] Disabled: Track-2, Channel-3
+[INFO] Disabled: Track-2, Channel-4
+[INFO] Disabled: Track-2, Channel-5
+
+[INFO] Disabled: Track-3, Channel-1
+[INFO] Disabled: Track-3, Channel-2
+[INFO] Disabled: Track-3, Channel-3
+[INFO] Disabled: Track-3, Channel-4
+[INFO] Disabled: Track-3, Channel-5
+
+[INFO] Disabled: Track-4, Channel-1
+[INFO] Disabled: Track-4, Channel-2
+[INFO] Disabled: Track-4, Channel-3
+[INFO] Disabled: Track-4, Channel-4
+[INFO] Disabled: Track-4, Channel-5
+
+[INFO] Disabled: Track-5, Channel-1
+[INFO] Enabled: Track-5, Channel-2; Program: 42; Beat (Total): 368.0
+[INFO] Disabled: Track-5, Channel-3
+[INFO] Disabled: Track-5, Channel-4
+[INFO] Disabled: Track-5, Channel-5
+
+[INFO] Enabled: Track-6, Channel-1; Program: 24; Beat (Total): 368.0
+[INFO] Enabled: Track-6, Channel-2; Program: 24; Beat (Total): 368.0
+[INFO] Enabled: Track-6, Channel-3; Program: 24; Beat (Total): 368.0
+[INFO] Disabled: Track-6, Channel-4
+[INFO] Disabled: Track-6, Channel-5
+
+[INFO] Enabled: Track-7, Channel-1; Program: 32; Beat (Total): 368.0
+[INFO] Disabled: Track-7, Channel-2
+[INFO] Disabled: Track-7, Channel-3
+[INFO] Disabled: Track-7, Channel-4
+[INFO] Disabled: Track-7, Channel-5

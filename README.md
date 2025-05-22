@@ -13,14 +13,11 @@
 8. (If available) Remove the directory of `.\MusicSheet\高唱入雲\` 
   - format: `.\MusicSheet\<SONG_NAME>\`
 ## SOP for Song Production
-- Generate music sheet(s) (default) for a song
+### Generate music sheet(s)
 1. Change the working directory to *<DIR_PROJECT>*
-2. Prepare `.\MelodySheet\高唱入雲.csv` as the melody file
-  - format: `.\MelodySheet\<SONG_NAME>.csv`
-3. Run `.\Scripts\python.exe GenerateDemo.py 高唱入雲 "6_1@6_2@6_3@5_2@7_1"`
-  - format: `.\Scripts\python.exe GenerateDemo.py "<SONG_NAME>" "<TRACK_i>_<CHANNEL_j>@..."`, where *<TRACK_i>*_*<CHANNEL_j>* pattern is repeatable (separated by *@*)
-
-- Generate "MIDI" file
+2. Prepare `.\MelodySheet\高唱入雲.csv` as the melody file (format: `.\MelodySheet\<SONG_NAME>.csv`)
+3. Run `.\Scripts\python.exe GenerateDemo.py 高唱入雲 "6_1@6_2@6_3@5_2@7_1"` (format: `.\Scripts\python.exe GenerateDemo.py "<SONG_NAME>" "<TRACK_i>_<CHANNEL_j>@..."`, where *<TRACK_i>*_*<CHANNEL_j>* pattern is repeatable (separated by *@*))
+### Generate "MIDI" file
 1. Change the working directory to *<DIR_PROJECT>*
 2. Fine-tune the notes in *.\MusicSheet\<*
 3. Run `.\Scripts\python.exe app.py`
