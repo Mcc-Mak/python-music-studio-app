@@ -6,6 +6,19 @@ volume = 70
 duration = 1
 tempo = 120
 note_slip = 1/88
+
+default_content = {
+    "header": '\n'.join([
+        "# File: CSV (Comma-Delimiter)",
+        "# Feature: Track+Channel; Beat+Note;",
+        "# _Header: Time,Pitch,VolumeOffset,DurationOffset,_Enabled_,_Comment_",
+        "# _Footer: EnabledChannel,ChannelDefaultPitch,(Reservation)"
+    ]),
+    "footer": '\n'.join([
+        "Footer:%s,%s,%s"
+    ])
+}
+
 lookup_track_name = {
     "Track_1": "Drums",
     "Track_2": "Piano 1 (for Vocal)",
@@ -40,18 +53,6 @@ __MUTE_COMPONENT__ = {
         # "4",
         # "5",
     ],
-}
-
-default_content = {
-    "header": '\n'.join([
-        "# File: CSV (Comma-Delimiter)",
-        "# Feature: Track+Channel; Beat+Note;",
-        "# _Header: Time,Pitch,VolumeOffset,DurationOffset,_Enabled_,_Comment_",
-        "# _Footer: EnabledChannel,ChannelDefaultPitch,(Reservation)"
-    ]),
-    "footer": '\n'.join([
-        "Footer:%s,%s,%s"
-    ])
 }
 
 music_sheet_shorthand = [
