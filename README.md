@@ -16,7 +16,8 @@
 ### Generate music sheet(s)
 1. Change the working directory to __<DIR_PROJECT>__
 2. Prepare `.\MelodySheet\高唱入雲.csv` as the melody file (format: `.\MelodySheet\<SONG_NAME>.csv`)
-3. Run `.\Scripts\python.exe GenerateDemo.py 高唱入雲 "6_1@6_2@6_3@7_1"` (format: `.\Scripts\python.exe GenerateDemo.py "<SONG_NAME>" "<TRACK_i>_<CHANNEL_j>@..."`, where __<TRACK_i>__\___<CHANNEL_j>__ pattern is repeatable (separated by __@__))
+3. Prepare `.\MusicSheetHighlyCustomized\高唱入雲\*.csv` for the arrangements of tailor-made musical instrument(s)
+4. Run `.\Scripts\python.exe GenerateDemo.py 高唱入雲 "1_5@2_5@4_4@5_2@6_1@6_2@6_3@7_1"` (format: `.\Scripts\python.exe GenerateDemo.py "<SONG_NAME>" "<TRACK_i>_<CHANNEL_j>@..."`, where __<TRACK_i>__\___<CHANNEL_j>__ pattern is repeatable (separated by __@__))
 ### Generate "MIDI" file
 1. Change the working directory to __<DIR_PROJECT>__
 2. Fine-tune the notes in __.\\MusicSheet\\<SONG_NAME>__
