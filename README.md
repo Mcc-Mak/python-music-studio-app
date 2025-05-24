@@ -1,12 +1,12 @@
 # Music Studio (Python)
 ## Pre-requisite(s)
-- *OS Windows* with *PowerShell*
-- Installed *Python3* (as well as python_package:*virtualenv*)
+- __OS Windows__ with __PowerShell__
+- Installed __Python3__ (as well as python_package:__virtualenv__)
 ## Installation
-1. Download zip for this git project, and then unzip it to *<DIR_DEPLOYMENT>* (an absolute path)
+1. Download zip for this git project, and then unzip it to __<DIR_DEPLOYMENT>__ (an absolute path)
 2. Run `python3 -m venv <DIR_PROJECT>` (an absolute path)
-3. Copy *.\MelodySheet\*, *.\MusicSheet\*, *.\OutputAudio\*, *.\\\*.py* and *.\requirements.txt* from *<DIR_DEPLOYMENT>\* into *<DIR_PROJECT>\*
-4. Change the working directory to *<DIR_PROJECT>\*
+3. Copy __.\\MelodySheet\\__, __.\\MusicSheet\\__, __.\\OutputAudio\\__, __.\\\*.py__ and __.\\requirements.txt__ from __<DIR_DEPLOYMENT>\\__ into __<DIR_PROJECT\\__
+4. Change the working directory to __<DIR_PROJECT>\\__
 5. Run `.\Scripts\Activate.ps1`
 6. Run `.\Scripts\python.exe -m pip install --upgrade pip`
 7. Run `.\Scripts\python.exe -m pip install -r requirements.txt`
@@ -14,17 +14,17 @@
   - format: `.\MusicSheet\<SONG_NAME>\`
 ## SOP for Song Production
 ### Generate music sheet(s)
-1. Change the working directory to *<DIR_PROJECT>*
+1. Change the working directory to __<DIR_PROJECT>__
 2. Prepare `.\MelodySheet\高唱入雲.csv` as the melody file (format: `.\MelodySheet\<SONG_NAME>.csv`)
-3. Run `.\Scripts\python.exe GenerateDemo.py 高唱入雲 "6_1@6_2@6_3@5_2@7_1"` (format: `.\Scripts\python.exe GenerateDemo.py "<SONG_NAME>" "<TRACK_i>_<CHANNEL_j>@..."`, where *<TRACK_i>*_*<CHANNEL_j>* pattern is repeatable (separated by *@*))
+3. Run `.\Scripts\python.exe GenerateDemo.py 高唱入雲 "6_1@6_2@6_3@5_2@7_1"` (format: `.\Scripts\python.exe GenerateDemo.py "<SONG_NAME>" "<TRACK_i>_<CHANNEL_j>@..."`, where __<TRACK_i>__\___<CHANNEL_j>__ pattern is repeatable (separated by __@__))
 ### Generate "MIDI" file
-1. Change the working directory to *<DIR_PROJECT>*
-2. Fine-tune the notes in *.\MusicSheet\<*
+1. Change the working directory to __<DIR_PROJECT>__
+2. Fine-tune the notes in __.\\MusicSheet\\<SONG_NAME>__
 3. Run `.\Scripts\python.exe app.py 高唱入雲` (format: `.\Scripts\python.exe app.py <SONG_NAME>`)
 ## Settings
 ### for Song Production
 - Configuration File
-  - *.\_config.py*
+  - __.\_config.py__
     - capo (default: +3)
     - volume (default: 70)
     - duration (default: 1)
@@ -33,8 +33,8 @@
     - lookup_program (ref: "General MIDI Program")
     - **music_sheet_shorthand (effective to the product by `.\Scripts\python.exe GenerateDemo.py "<SONG_NAME>" "<TRACK_i>_<CHANNEL_j>@..."`)
 - Music Sheet
-  - *MelodySheet\<SONG_NAME>.csv* (effective to the product of *MusicSheet\<SONG_NAME>\2_1.csv* by `.\Scripts\python.exe GenerateDemo.py "<SONG_NAME>" "<TRACK_i>_<CHANNEL_j>@..."`)
-  - *MusicSheet\<SONG_NAME>\<Track_1-indexed>_<Channel_1-indexed>.csv* (effective to the product of *.\OutputAudio\<SONG_NAME>.midi*)
+  - __MelodySheet\\<SONG_NAME>.csv__ (effective to the product of __MusicSheet\\<SONG_NAME>\\2_1.csv__ by `.\Scripts\python.exe GenerateDemo.py "<SONG_NAME>" "<TRACK_i>_<CHANNEL_j>@..."`)
+  - __MusicSheet\\<SONG_NAME>\\<Track_1-indexed>_<Channel_1-indexed>.csv__ (effective to the product of __.\\OutputAudio\\<SONG_NAME>.midi__)
 ### for Music Sheet
 - As metadata for song
   - Syntax: Last line
@@ -49,15 +49,15 @@
       - other: beat (in float) [1 is the note of 1/4]
     - &lt;Pitch&gt;
       - Syntax: `<attr1>.<attr2>.<attr3>`
-        - &lt;attr1&gt;: *chord (e.g. C, G)* or *pitch (e.g. C3, G6)*
-        - &lt;attr2&gt;: empty string if &lt;attr1&gt; as *pitch*. represent order in chord note if &lt;attr1&gt; as *chord*.
-        - &lt;attr3&gt;: optional to change pitch for this note if &lt;attr1&gt; not as *pitch*.
+        - &lt;attr1&gt;: __chord (e.g. C, G)__ or __pitch (e.g. C3, G6)__
+        - &lt;attr2&gt;: empty string if &lt;attr1&gt; as __pitch__. represent order in chord note if &lt;attr1&gt; as __chord__.
+        - &lt;attr3&gt;: optional to change pitch for this note if &lt;attr1&gt; not as __pitch__.
           - Priority for pitch:
-            1. Follow *&lt;attr1&gt;* (if *&lt;attr1&gt;* as *pitch*)
-            2. Follow *&lt;attr3&gt;*
-            3. Follow *metadata:&lt;attr2&gt;*
+            1. Follow __&lt;attr1&gt;__ (if __&lt;attr1&gt;__ as __pitch__)
+            2. Follow __&lt;attr3&gt;__
+            3. Follow __metadata:&lt;attr2&gt;__
   - Notice
-    - <NoteVolumeOffset>, <NoteDurationOffset> must be any *float* if <Time> not equal "-1"
+    - <NoteVolumeOffset>, <NoteDurationOffset> must be any __float__ if <Time> not equal "-1"
     - <NoteEnable> must be "True if <Time> not equal "-1"
 - As comment
   - Syntax: line starting by "#"
