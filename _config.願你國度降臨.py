@@ -25,6 +25,11 @@ lookup_program = {
     "Track_7": 32,
 }
 
+__MUTE_COMPONENT__ = {
+    "Track": [],
+    "Channel": [],
+}
+
 default_content = {
     "header": '\n'.join([
         "# File: CSV (Comma-Delimiter)",

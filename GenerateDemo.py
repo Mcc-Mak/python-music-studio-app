@@ -31,7 +31,7 @@ for track in range(no_of_tracks):
                 f'{default_content["header"]}\n{GenerateDefaultContent(music_sheet_shorthand, track, channel)}\n{default_content["footer"]%("True","2","-1")}'
                     if f"{track_1i}_{channel_1i}" in track_channel
                     else
-                f'{default_content["header"]}\n{default_content["footer"]%("False","-1","-1")}'
+                f'{default_content["header"]}\n{default_content["footer"]%("False","-1","0")}'
             )
 import shutil
 shutil.copyfile(f"MelodySheet/{song_name}.csv", f"MusicSheet/{song_name}/2_5.csv")

@@ -75,7 +75,7 @@
 |DATA|&lt;Comment&gt;|String|Represent a comment visible to python data object|
 ## Documentation
 #### Production
-1. 高唱入雲 (Highly customized for "2_5@4_5@5_5")
+1. 高唱入雲 (Highly customized for "2_5@4_4@5_2")
 2. [WIP] 願你國度降臨
 #### General MIDI Program
 |Category|Program|Instrument(s)|

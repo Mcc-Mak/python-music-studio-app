@@ -98,7 +98,7 @@ def GetMusicSheet(song_name, track, channel, jdata={}):
     filepath = f"MusicSheet/{song_name}/{track_1i}_{channel_1i}.csv"
     with open(filepath, 'r', encoding="utf8") as f:
         data = f.read().strip('\n').split('\n')
-    _EnabledChannel,_ChannelDefaultPitch,_ = data[-1].split(':')[1].split(',')
+    _EnabledChannel,_ChannelDefaultPitch,_ChannelVolumeOffset = data[-1].split(':')[1].split(',')
     acc_time = 0
     for note in data[:-1]:
         if note[0] == "#": continue
@@ -122,9 +122,9 @@ def GetMusicSheet(song_name, track, channel, jdata={}):
                 data = [
                     acc_time,
                     float(_Time),
-                    GetMIDINote(_Pitch) + jdata["_capo"],
-                    int(_VolumeOffset) + jdata["_volume"],
-                    float(_DurationOffset) + jdata["_duration"],
+                    jdata["_capo"] + GetMIDINote(_Pitch),
+                    jdata["_volume"] + int(_ChannelVolumeOffset) + int(_VolumeOffset),
+                    jdata["_duration"] + float(_DurationOffset),
                     Comment
                 ]
             else:

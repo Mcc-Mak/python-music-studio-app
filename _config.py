@@ -5,7 +5,7 @@ no_of_channels = 5
 volume = 70
 duration = 1
 tempo = 120
-note_slip = 1/11
+note_slip = 1/88
 lookup_track_name = {
     "Track_1": "Drums",
     "Track_2": "Piano 1 (for Vocal)",
@@ -23,6 +23,23 @@ lookup_program = {
     "Track_5": 42,
     "Track_6": 24,
     "Track_7": 32,
+}
+
+__MUTE_COMPONENT__ = {
+    "Track": [
+        # "2",
+        # "4",
+        # "5",
+        # "6",
+        # "7",
+    ],
+    "Channel": [
+        # "1",
+        # "2",
+        # "3",
+        # "4",
+        # "5",
+    ],
 }
 
 default_content = {
