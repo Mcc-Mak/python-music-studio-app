@@ -75,11 +75,13 @@
 |DATA|&lt;NoteEnable&gt;|True&lt;br/&gt;False|Enable this note|
 |DATA|&lt;Comment&gt;|String|Represent a comment visible to python data object|
 ## Future Development
-- "當這(世)界，仍是(冷)漠" 轉 Bass 做主音
-- 未Handle食Melody問題，後半部可更加食Melody
+- 轉Bass做主音：「當這世界，仍是冷漠，基督降世捨身，使我們從罪裡得生」
+- 處理食Melody問題，後半部可更加食Melody
+- 處理mid2mp3既失真
+- （如適用）研究在iPhone播放MIDI的他途
 ## Documentation
 #### Production
-1. 高唱入雲 (Highly customized for "1_5@2_5@4_4@5_2")
+1. 高唱入雲 (Highly customized for "1_5@2_5@4_4@5_2@6_1")
 2. [WIP] 願你國度降臨
 #### General MIDI Program
 |Category|Program|Instrument(s)|
