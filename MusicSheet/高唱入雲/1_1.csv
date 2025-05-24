@@ -2,4 +2,4 @@
 # Feature: Track+Channel; Beat+Note;
 # _Header: Time,Pitch,VolumeOffset,DurationOffset,_Enabled_,_Comment_
 # _Footer: EnabledChannel,ChannelDefaultPitch,(Reservation)
-Footer:False,-1,-1
+Footer:False,-1,0

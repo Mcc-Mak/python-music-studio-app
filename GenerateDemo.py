@@ -8,7 +8,8 @@ import sys, os
 #   1. <SongName> (e.g. 高唱入雲)
 song_name = sys.argv[1]
 #   2. <Track (1)>_<Channel (1)>@<Track (1)>_<Channel (2)>@...@<Track (n)>_<Channel (k)>
-track_channel = [pair for pair in sys.argv[2].strip().split('@')]
+enabled_channels = sys.argv[2]
+track_channel = [pair for pair in enabled_channels.strip().split('@')]
 #
 #
 #
@@ -35,3 +36,10 @@ for track in range(no_of_tracks):
             )
 import shutil
 shutil.copyfile(f"MelodySheet/{song_name}.csv", f"MusicSheet/{song_name}/2_5.csv")
+# 3. Highly customized music sheet (non-melody)
+highly_customized_music_sheets = enabled_channels.split('@')
+for sheet in highly_customized_music_sheets:
+    src_file = f"MusicSheetHighlyCustomized/{song_name}/{sheet}.csv"
+    if os.path.exists(src_file):
+        dest_file = f"MusicSheet/{song_name}/{sheet}.csv"
+        shutil.copyfile(src_file, dest_file)
