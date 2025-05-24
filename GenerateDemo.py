@@ -34,4 +34,4 @@ for track in range(no_of_tracks):
                 f'{default_content["header"]}\n{default_content["footer"]%("False","-1","-1")}'
             )
 import shutil
-shutil.copyfile(f"MelodySheet/{song_name}.csv", f"MusicSheet/{song_name}/2_1.csv")
+shutil.copyfile(f"MelodySheet/{song_name}.csv", f"MusicSheet/{song_name}/2_5.csv")
