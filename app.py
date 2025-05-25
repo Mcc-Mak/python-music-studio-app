@@ -10,7 +10,7 @@ import sys
 # __SongName__ = "願你國度降臨"
 __SongName__ = sys.argv[1]
 
-# MyMIDI.addProgramChange(track, channel, time, program)
+start_time = 19+56+16+16
 for track in range(no_of_tracks):
     track_1i = str(track+1)
     MyMIDI.addTrackName(track, 0, lookup_track_name[f"Track_{track_1i}"])
@@ -33,12 +33,13 @@ for track in range(no_of_tracks):
             for note in music_sheet:
                 # print(note)
                 if note[1] > 0:
-                    MyMIDI.addProgramChange(track, channel, note[0], lookup_program[f'Track_{track_1i}'])
+                    if note[0] <= start_time: continue
+                    MyMIDI.addProgramChange(track, channel, note[0]-start_time, lookup_program[f'Track_{track_1i}'])
                     slip=channel*note_slip
                     if note[3] == None:
-                        MyMIDI.addNote(track, channel, note[2], note[0]+slip, 1, 1)
+                        MyMIDI.addNote(track, channel, note[2], note[0]-start_time+slip, 1, 1)
                     else:
-                        MyMIDI.addNote(track, channel, note[2], note[0]+slip, note[4], note[3])
+                        MyMIDI.addNote(track, channel, note[2], note[0]-start_time+slip, note[4], note[3])
                         # print(note[2], note[0], note[4], note[3])
             print(f"[INFO] Enabled: Track-{track_1i}, Channel-{channel_1i}; Program: {lookup_program[f'Track_{track_1i}']}; Beat (Total): {note[0]}")
     print()
