@@ -10,7 +10,7 @@ import sys
 # __SongName__ = "願你國度降臨"
 __SongName__ = sys.argv[1]
 
-start_time = 19+56+16+16
+start_time = 19+56+16+16+16
 for track in range(no_of_tracks):
     track_1i = str(track+1)
     MyMIDI.addTrackName(track, 0, lookup_track_name[f"Track_{track_1i}"])
