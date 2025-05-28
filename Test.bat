@@ -1,0 +1,1 @@
+cls && rd /S /Q "MusicSheet\願你國度降臨" && Scripts\python.exe app.py "願你國度降臨" "3_2@3_3@3_4@6_1@6_2@6_3" && Scripts\python.exe app.py "願你國度降臨" && ".\OutputAudio\願你國度降臨.midi"
