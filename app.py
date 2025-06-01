@@ -21,7 +21,7 @@ if len(sys.argv) == 2:
     __SongName__ = sys.argv[1]
 
     start_time = 0
-    # start_time = 4 * 8 + 4 * 8 + 4 * 8 + 4 * 8 + 4*4 - 2
+    # start_time = 4 * 2 + 16 * 4 + 16 * 4 + 4 *4 
     for track in range(no_of_tracks):
         track_1i = str(track+1)
         MyMIDI.addTrackName(track, 0, lookup_track_name[f"Track_{track_1i}"])
