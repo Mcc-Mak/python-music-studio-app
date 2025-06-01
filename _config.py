@@ -13,20 +13,20 @@ tempo = 130
 note_slip = 1/88
 lookup_track_name = {
     "Track_1": "Drums",
-    "Track_2": "Piano 1 (for Vocal)",
+    "Track_2": "Guitar (for Vocal)",
     "Track_3": "Piano 2",
     "Track_4": "Organ",
     "Track_5": "Strings",
-    "Track_6": "Guitar",
+    "Track_6": "Piano 1",
     "Track_7": "Bass",
 }
 lookup_program = {
     "Track_1": 112,
-    "Track_2": 1,
+    "Track_2": 24,
     "Track_3": 0,
     "Track_4": 19,
     "Track_5": 42,
-    "Track_6": 24,
+    "Track_6": 1,
     "Track_7": 32,
 }
 
