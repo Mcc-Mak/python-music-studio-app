@@ -21,7 +21,7 @@ if len(sys.argv) == 2:
     __SongName__ = sys.argv[1]
 
     start_time = 0
-    # start_time = 61 * 4
+    # start_time = 63 * 4
     # start_time = 30 * 4
     for track in range(no_of_tracks):
         track_1i = str(track+1)
