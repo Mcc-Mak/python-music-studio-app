@@ -1,15 +1,15 @@
 
 #
-# CLS && RD /S /Q "MusicSheet\Heart Of Worship" && Scripts\python.exe app.py "Heart Of Worship" "3_2@6_1@6_2@6_3@5_4" && Scripts\python.exe app.py "Heart Of Worship" && "".\OutputAudio\Heart Of Worship.midi"
+# CLS && RD /S /Q MusicSheet\神真正心意 && Scripts\python.exe app.py "神真正心意" "3_2@6_1@6_2@6_3@5_4" && Scripts\python.exe app.py "神真正心意" && .\OutputAudio\神真正心意.midi
 #
 
-capo = -2
+capo = -1
 
 no_of_tracks = 7
 no_of_channels = 5
 volume = 70
 duration = 1
-tempo = 125
+tempo = 130
 note_slip = 1/88
 lookup_track_name = {
     "Track_1": "Drums",
@@ -67,7 +67,7 @@ music_sheet_shorthand = [
     "... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ",
     " [1] Verse",
     "... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ",
-    "... When the music fades... All is striped away... And I simply come...",
+    "... 樂聲不再響，一切都褪去，剩簡單理想。",
     ["E.4"],
     "... ... ...",
     ["E.4"],
@@ -83,7 +83,7 @@ music_sheet_shorthand = [
     ["B.4"],
     "... ... ...",
     ["B.4"],
-    "... Longing just to bring... Something that's of worth... That will bless your heart...",
+    "... 願終身獻出，真摰的敬拜，令你心讚賞。",
     ["E.4"],
     "... ... ...",
     ["E.4"],
@@ -103,7 +103,7 @@ music_sheet_shorthand = [
     "... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ",
     " [2] Pre-Chorus",
     "... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ",
-    "... I'll bring you more than a song... for a song in itself... it's not what you have required...",
+    "... 已獻過不少愛歌，兼有精彩唱和，卻發覺相差太多。",
     ["F#m7.4"],
     "... ... ...",
     ["E.4"],
@@ -119,7 +119,7 @@ music_sheet_shorthand = [
     ["B.4"],
     "... ... ...",
     ["B.4"],
-    "... You search much deeper within... through the way things appear... you're looking into my heart...",
+    "... 你要聽心底愛歌，此際終於覺悟，你鑑察透視心窩。",
     ["F#m7.4"],
     "... ... ...",
     ["E.4"],
@@ -139,7 +139,7 @@ music_sheet_shorthand = [
     "... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ",
     " [3] Chorus",
     "... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ",
-    "... I'm coming back to the heart of worship... And it's all about you... It's all about you Jesus...",
+    "... 敬拜裡返回神真正心意，原來是為靠近，獨為靠近主你。",
     ["E.4"],
     "... ... ...",
     ["E.4"],
@@ -155,7 +155,7 @@ music_sheet_shorthand = [
     ["F#m.4"],
     "... ... ...",
     ["B.4"],
-    "... I'm sorry lord for the things I've made it... And it's all about you... It's all about you Jesus...",
+    "... 過去我虛浮無知請寬裕，原來是為靠近，獨為靠近主你。",
     ["E.4"],
     "... ... ...",
     ["E.4"],
@@ -186,7 +186,7 @@ music_sheet_shorthand = [
     "... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ",
     " [1] Verse",
     "... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ",
-    "... King of endless worth... No one could express how much you deserve...",
+    "... 上主的榮耀，當得的讚美，問怎麼形容。",
     ["E.4"],
     "... ... ...",
     ["E.4"],
@@ -202,7 +202,7 @@ music_sheet_shorthand = [
     ["B.4"],
     "... ... ...",
     ["B.4"],
-    "... Though I'm weak and poor... All I've is yours... Every single breathe",
+    "... 願將所有的，一一交予你，奉上我全部。",
     ["E.4"],
     "... ... ...",
     ["E.4"],
@@ -222,7 +222,7 @@ music_sheet_shorthand = [
     "... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ",
     " [2] Pre-Chorus",
     "... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ",
-    "... I'll bring you more than a song... for a song in itself... it's not what you have required...",
+    "... 已獻過不少愛歌，兼有精彩唱和，卻發覺相差太多。",
     ["F#m7.4"],
     "... ... ...",
     ["E.4"],
@@ -238,7 +238,7 @@ music_sheet_shorthand = [
     ["B.4"],
     "... ... ...",
     ["B.4"],
-    "... You search much deeper within... through the way things appear... you're looking into my heart...",
+    "... 你要聽心底愛歌，此際終於覺悟，你鑑察透視心窩。",
     ["F#m7.4"],
     "... ... ...",
     ["E.4"],
@@ -258,7 +258,7 @@ music_sheet_shorthand = [
     "... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ",
     " [3] Chorus",
     "... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ",
-    "... I'm coming back to the heart of worship... And it's all about you... It's all about you Jesus...",
+    "... 敬拜裡返回神真正心意，原來是為靠近，獨為靠近主你。",
     ["E.4"],
     "... ... ...",
     ["E.4"],
@@ -274,7 +274,7 @@ music_sheet_shorthand = [
     ["F#m.4"],
     "... ... ...",
     ["B.4"],
-    "... I'm sorry lord for the things I've made it... And it's all about you... It's all about you Jesus...",
+    "... 過去我虛浮無知請寬裕，原來是為靠近，獨為靠近主你。",
     ["E.4"],
     "... ... ...",
     ["E.4"],
@@ -294,7 +294,7 @@ music_sheet_shorthand = [
     "... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ",
     " [3] Chorus",
     "... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ",
-    "... I'm coming back to the heart of worship... And it's all about you... It's all about you Jesus...",
+    "... 敬拜裡返回神真正心意，原來是為靠近，獨為靠近主你。",
     ["E.4"],
     "... ... ...",
     ["E.4"],
@@ -310,7 +310,7 @@ music_sheet_shorthand = [
     ["F#m.4"],
     "... ... ...",
     ["B.4"],
-    "... I'm sorry lord for the things I've made it... And it's all about you... It's all about you Jesus...",
+    "... 過去我虛浮無知請寬裕，原來是為靠近，獨為靠近主你。",
     ["E.4"],
     "... ... ...",
     ["E.4"],
